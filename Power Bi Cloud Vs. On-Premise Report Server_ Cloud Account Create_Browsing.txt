@@ -1,0 +1,82 @@
+If you want to store and share reports either cloud service or report server is required.
+
+=========
+Cloud Service:
+==========
+a) Connected using URL (app.powerbi.com) and  account [Pro, PPU, Premium Capacity, Embed, Fabric]
+b) Having many features and advanced features also
+	Ex: Deployment Pipelines, Scorecards, Dataflows, Alerts, Dashboard Templates etc.
+c) Backend storage is Azure [ BLOB, SQL Database, Data Lake Gen 2 Storage etc.]
+d) We use workspaces to keep content (reports / dashboards etc.) and share using multiple methods
+	[ On-demand share, QR Code, Subscription, Appspace or Content Pack share]
+e) PBIX [PBI Desktop File] having many features and RDL [Paginated Report Builder File]having limited features
+
+================
+On-Premise Report Server:
+=================
+a) Connected using Local URL (http:\\yourcompanyservername:port\virtual directory \) and windows credentials
+b) Having limited features and basic features [since SSRS facilities available]
+c) Backend storage is SQL Server [ Report Server DB, ReportServer TempDB]
+d) We use Folders to keep content (reports / dashboards etc.) and share using multiple methods
+	[ Share, Subscription]
+e) PBIX [PBI Desktop File] having limited features and RDL [Paginated Report Builder File]having more features
+
+Account: The authorization between you and the cloud.
+Types: Pro, PPU, Premium Capacity, Embed, Fabric
+
+Pro:  Single User, 10 GB, $15/month, Limited Features
+Premium Per User[PPU]: Single User, 10 GB, $30/month, Premium Features
+Premium Capacity: Multiple users, More Storage, More Capacity etc.
+		
+			P1: Premium 1: Server 1 Type: 25 GB RAM, 8 Vcores, TBs Space, $7500/month
+			P2: Premium 2: Server 2 Type: 50 GB RAM, 16 Vcores, TBs Space, $15000/month
+			P3: Premium 3: Server 3 Type: 100 GB RAM, 32 Vcores, TBs Space, NA
+Power BI Embed: Power BI + Azure 
+Microsoft Fabric Account:  Power BI + ADF + Synapse+ Data Activator account
+		
+=================
+Create a Power BI account
+=================
+You need to have a valid domain account / company account.
+Ex: @tcs.com, @ibm.com, @vinaytechhouse.com
+
+Note: Gmail, yahoomail etc. not supported
+
+Google it for PBI signin  or use the below link for sign in:
+
+
+https://app.powerbi.com/singleSignOn?ru=https:%2f%2fapp.powerbi.com%2f%3fnoSignUpChec
+k%3d1
+
+=========================
+We have a proper account: vinaytech_0702@vinaytechhouse.com
+
+=========================================
+Power BI User name: vinaytech_0702@vinaytechhouse.com
+Power BI Password: vinaytech@2024
+
+
+
+===========
+Report Sharing
+=========
+Two types
+	a) Single report share:
+		Again 3 types
+		1. On-demand share
+		2. Subscription share
+		3. QR code share
+	b) Multiple reports at a time share [Appspace or Contentpack]
+		Conteckpack modernized concept is Appspace
+
+
+
+
+
+
+
+
+
+
+
+
