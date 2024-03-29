@@ -1,5 +1,7 @@
 If you want to store and share reports either cloud service or report server is required.
 
+Report Server and Desktop sessions will be discussed later.
+
 =========
 Cloud Service:
 ==========
@@ -9,6 +11,7 @@ b) Having many features and advanced features also
 c) Backend storage is Azure [ BLOB, SQL Database, Data Lake Gen 2 Storage etc.]
 d) We use workspaces to keep content (reports / dashboards etc.) and share using multiple methods
 	[ On-demand share, QR Code, Subscription, Appspace or Content Pack share]
+
 e) PBIX [PBI Desktop File] having many features and RDL [Paginated Report Builder File]having limited features
 
 ================
